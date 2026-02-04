@@ -1,16 +1,47 @@
-# React + Vite
+# 🐾 Whisky’s Webpage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Vite webpage for Whisky the Samoyed featuring a short introduction and a photo carousel.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requirements
+- Node.js (LTS recommended)
 
-## React Compiler
+Check installation:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+node -v
+npm -v
+```
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Install & Run
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## Prompts used to build it
+
+
+`Prompt 1`
+
+I want to build a simple webpage for my Samoyed dog. He's name is "Whisky" and I would like to have a brief introduction telling everybody what traits he loves and than a carousel of his images. This is a fresh new project so let's start by telling me how to set everything up using reactjs
+
+---
+`Prompt 2`
+
+I added 6 images. Where should I change the code to display all of them?
+
+---
+`Prompt 3`
+
+works BUT I don't really see images. Slider is extremely wide (going outside of the screen) and I see a blur of colors instead of actual images.
+
+---
+`Prompt 4`
+
+can you generate README for this project? EXTREMELY simple and concise. I'm mainly interested to tell people how to run it locally
